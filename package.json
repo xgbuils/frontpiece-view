@@ -1,0 +1,38 @@
+{
+  "name": "frontpiece.view",
+  "version": "0.1.0",
+  "description": "Light view class based on Backbone.View",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbuils/frontpiece-view"
+  },
+  "keywords": [
+    "frontend",
+    "model",
+    "validation",
+    "error",
+    "handler"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgbuils/frontpiece-view"
+  },
+  "homepage": "https://github.com/xgbuils/frontpiece-view",
+  "dependencies": {
+    "frontpiece.extend-factory": "^0.2.0",
+    "object-assign": "^2.0.0",
+    "ontrigger": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-things": "^0.2.0",
+    "frontpiece.model": "^0.5.6",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1"
+  }
+}
